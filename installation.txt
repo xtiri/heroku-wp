@@ -1,0 +1,246 @@
+Chases-iMac:heroku-wp chase$ bin/init.sh xtiri-wordpress
+Creating ⬢ xtiri-wordpress... done
+https://xtiri-wordpress.herokuapp.com/ | https://git.heroku.com/xtiri-wordpress.git
+Creating heroku-redis:hobby-dev on ⬢ xtiri-wordpress... free
+Your add-on should be available in a few minutes.
+! WARNING: Data stored in hobby plans on Heroku Redis are not persisted.
+redis-convex-31493 is being created in the background. The app will restart when complete...
+Use heroku addons:info redis-convex-31493 to check creation progress
+Use heroku addons:docs heroku-redis to view documentation
+Creating jawsdb-maria:kitefin on ⬢ xtiri-wordpress... free
+Your database has been provisioned and is ready for use.
+Created jawsdb-maria-elliptical-68486 as WP_DB_URL
+Use heroku addons:docs jawsdb-maria to view documentation
+Setting WP_DB_SSL and restarting ⬢ xtiri-wordpress... done, v4
+WP_DB_SSL: ON
+Creating sendgrid:starter on ⬢ xtiri-wordpress... free
+Created sendgrid-spherical-82673 as SENDGRID_PASSWORD, SENDGRID_USERNAME
+Use heroku addons:docs sendgrid to view documentation
+Creating newrelic:wayne on ⬢ xtiri-wordpress... free
+Created newrelic-encircled-66542 as NEW_RELIC_LICENSE_KEY, NEW_RELIC_LOG
+Use heroku addons:docs newrelic to view documentation
+Setting NEW_RELIC_APP_NAME and restarting ⬢ xtiri-wordpress... done, v7
+NEW_RELIC_APP_NAME: Heroku WP
+Setting WP salts with /dev/random
+Setting WP_AUTH_KEY, WP_SECURE_AUTH_KEY, WP_LOGGED_IN_KEY, WP_NONCE_KEY, WP_AUTH_SALT, WP_SECURE_AUTH_SALT, WP_LOGGED_IN_SALT, WP_NONCE_SALT and restarting ⬢ xtiri-wordpress... done, v8
+WP_AUTH_KEY:         KujWOK6YMoPExhvBNSiMnVjtEcwWCREXxc/+DXHwwhZ1PPWvV3fg+LM0lb7+gYN1E9JCLs+CWQQYfVNMCL18oSnsITgXmVDhgINyKIWyNGP4IsGHByFa5UmIptVxz4bn
+WP_AUTH_SALT:        vmY0YzwgMg41a4SHGe/MfwYXlnk5Qu/W3JUBr90sS/uYgr2Km5gJdEAiViHdcdBlUdo3qAy/7xV+B3DFcFxYTmaYvr3MRLOwGC3H9ZtrgI5/pVxkUkO7nrX+nGj1Gr/j
+WP_LOGGED_IN_KEY:    c+D936zz7b+UqfrdRpEwQ6QLw3i/Lnp6rq/WyLl66AtY2hj92p+7u2czr3B2GJL7QPWUDvrtfPgML4loe/zzR3JmnRPz/yarKLyJqLp0cQD6AQG0kzJ0YWk+YfgzolCZ
+WP_LOGGED_IN_SALT:   hAYN59qOE57EmLG66Hzt9wMDJbFR78MzIySwRymOE+CthQez94+51/N8GeypMcQ7EhWi+kYyvfbK/3slv4yQAaE4PzxeSLAnaLleXNe05ScSDmgc3CiF7UArL/eve171
+WP_NONCE_KEY:        dfC7jxU7yxU/Ege3ULbR1iJMV3pVa7QBVHEVsqGm+aLC90VV1g4tDEDZd31pfMTLBnxqc/bDrS35x7ZEd489cMhNqvJZgtLFpvWrMcoHqk9E52CRS18iRCERPWAwjdvI
+WP_NONCE_SALT:       slztFNncykMYEN+dlIc4WEe5+1hF73Mw6aMgeXbu6y+UDXtONN9t8TCm2dhEWjpXlnrLmxNjdi9SD9ItH3vk3zjSVfYkUC9UEW6CRd3whIWIWXbQuuI4+mEDqpHjXfPQ
+WP_SECURE_AUTH_KEY:  kOz1v56k8JF3odKuIOdsK0QIU0dtD/8Crx1M4dlA/FlPiJHUk4njZqkvsLj28KC49xYJJ+i/rbkpiPJIOEiPiAVER291ABgZfgQJr+zHI+7tNdfa6WsMKH1Tms/if9om
+WP_SECURE_AUTH_SALT: js4jv1IJOIK0KUG21WYJynoi1PidM6rONutKsSaeMqjpKuJ9nqcdBahXwqjJYD/gUy816ReZRd1yBlmdUJev0URwqqcC/aeIFOBGg9h1UVJIwBojhoaFC2sdBHjNlgP+
+Waiting for Heroku Redis to provision... done
+Maxmemory policy for redis-convex-31493 (REDIS_URL) set to volatile-lru.
+volatile-lru evict keys trying to remove the less recently used keys first, but only those that have an expiry set.
+Timeout for redis-convex-31493 (REDIS_URL) set to 60 seconds.
+Connections to the Redis instance will be stopped after idling for 60 seconds.
+set git remote heroku to git@heroku.com:xtiri-wordpress.git
+Switched to a new branch 'xtiri-wordpress'
+Loading composer repositories with package information
+Updating dependencies (including require-dev)
+Package operations: 61 installs, 0 updates, 0 removals
+  - Installing composer/installers (v1.3.0): Downloading (100%)
+  - Installing wp-cli/autoload-splitter (v0.1.3): Downloading (100%)
+  - Installing wordpress/wordpress (4.7.5): Downloading (100%)
+  - Installing automattic/batcache (dev-master 81d6fbf): Cloning 81d6fbfd2d from cache
+  - Installing humanmade/s3-uploads (v1.1.0): Downloading (100%)
+  - Installing wpackagist-plugin/redis-cache (1.3.5): Downloading (100%)
+  - Installing wpackagist-plugin/secure-db-connection (1.1.2): Downloading (100%)
+  - Installing wpackagist-plugin/authy-two-factor-authentication (3.0.1): Downloading (100%)
+  - Installing wpackagist-plugin/jetpack (4.9): Downloading (100%)
+  - Installing wpackagist-plugin/sendgrid-email-delivery-simplified (1.11.3): Downloading (100%)
+  - Installing predis/predis (v1.1.1): Downloading (100%)
+  - Installing wp-cli/php-cli-tools (v0.11.2): Downloading (100%)
+  - Installing wp-cli/mustangostang-spyc (0.6.3): Downloading (100%)
+  - Installing composer/semver (1.4.2): Downloading (100%)
+  - Installing mustache/mustache (v2.11.1): Downloading (100%)
+  - Installing ramsey/array_column (1.1.3): Downloading (100%)
+  - Installing rmccue/requests (v1.7.0): Downloading (100%)
+  - Installing symfony/filesystem (v3.3.2): Downloading (100%)
+  - Installing symfony/config (v3.3.2): Downloading (100%)
+  - Installing psr/log (1.0.2): Downloading (100%)
+  - Installing symfony/debug (v3.3.2): Downloading (100%)
+  - Installing symfony/polyfill-mbstring (v1.4.0): Downloading (100%)
+  - Installing symfony/console (v3.3.2): Downloading (100%)
+  - Installing psr/container (1.0.0): Downloading (100%)
+  - Installing symfony/dependency-injection (v3.3.2): Downloading (100%)
+  - Installing symfony/event-dispatcher (v3.3.2): Downloading (100%)
+  - Installing symfony/finder (v3.3.2): Downloading (100%)
+  - Installing symfony/process (v3.3.2): Downloading (100%)
+  - Installing symfony/translation (v3.3.2): Downloading (100%)
+  - Installing symfony/yaml (v3.3.2): Downloading (100%)
+  - Installing wp-cli/cache-command (v1.0.1): Downloading (100%)
+  - Installing wp-cli/checksum-command (v1.0.1): Downloading (100%)
+  - Installing wp-cli/config-command (v1.1.1): Downloading (100%)
+  - Installing wp-cli/core-command (v1.0.1): Downloading (100%)
+  - Installing wp-cli/cron-command (v1.0.1): Downloading (100%)
+  - Installing wp-cli/widget-command (v1.0.1): Downloading (100%)
+  - Installing wp-cli/super-admin-command (v1.0.1): Downloading (100%)
+  - Installing wp-cli/wp-cli (v1.2.1): Downloading (100%)
+  - Installing wp-cli/shell-command (v1.0.1): Downloading (100%)
+  - Installing nb/oxymel (v0.1.0): Downloading (100%)
+  - Installing seld/phar-utils (1.0.1): Downloading (100%)
+  - Installing seld/jsonlint (1.6.0): Downloading (100%)
+  - Installing seld/cli-prompt (1.0.3): Downloading (100%)
+  - Installing justinrainbow/json-schema (5.2.1): Downloading (100%)
+  - Installing composer/spdx-licenses (1.1.6): Downloading (100%)
+  - Installing composer/ca-bundle (1.0.7): Downloading (100%)
+  - Installing composer/composer (1.4.2): Downloading (100%)
+  - Installing wp-cli/server-command (v1.0.5): Downloading (100%)
+  - Installing wp-cli/search-replace-command (v1.0.1): Downloading (100%)
+  - Installing wp-cli/scaffold-command (v1.0.4): Downloading (100%)
+  - Installing wp-cli/role-command (v1.0.1): Downloading (100%)
+  - Installing wp-cli/rewrite-command (v1.0.1): Downloading (100%)
+  - Installing wp-cli/package-command (v1.0.1): Downloading (100%)
+  - Installing wp-cli/media-command (v1.0.2): Downloading (100%)
+  - Installing wp-cli/language-command (v1.0.2): Downloading (100%)
+  - Installing wp-cli/import-command (v1.0.1): Downloading (100%)
+  - Installing wp-cli/extension-command (v1.1.1): Downloading (100%)
+  - Installing wp-cli/export-command (v1.0.1): Downloading (100%)
+  - Installing wp-cli/eval-command (v1.0.1): Downloading (100%)
+  - Installing wp-cli/entity-command (v1.0.2): Downloading (100%)
+  - Installing wp-cli/db-command (v1.1.0): Downloading (100%)
+predis/predis suggests installing ext-phpiredis (Allows faster serialization and deserialization of the Redis protocol)
+symfony/dependency-injection suggests installing symfony/expression-language (For using expressions in service container configuration)
+symfony/dependency-injection suggests installing symfony/proxy-manager-bridge (Generate service proxies to lazy load them)
+symfony/event-dispatcher suggests installing symfony/http-kernel ()
+wp-cli/wp-cli suggests installing psy/psysh (Enhanced `wp shell` functionality)
+Writing lock file
+Generating autoload files
+[xtiri-wordpress 49a83e3] Initial commit for 'xtiri-wordpress'
+ 1 file changed, 3245 insertions(+), 12 deletions(-)
+ rewrite composer.lock (96%)
+Counting objects: 1403, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (592/592), done.
+Writing objects: 100% (1403/1403), 264.19 KiB | 0 bytes/s, done.
+Total 1403 (delta 721), reused 1397 (delta 718)
+remote: Compressing source files... done.
+remote: Building source:
+remote:
+remote: -----> Deleting 6 files matching .slugignore patterns.
+remote: -----> PHP app detected
+remote: -----> Bootstrapping...
+remote: -----> Installing platform packages...
+remote:        - php (7.1.3)
+remote:        - ext-gd (bundled with php)
+remote:        - apache (2.4.20)
+remote:        - nginx (1.8.1)
+remote: -----> Installing dependencies...
+remote:        Composer version 1.4.1 2017-03-10 09:29:45
+remote:        Loading composer repositories with package information
+remote:        Installing dependencies from lock file
+remote:        Package operations: 61 installs, 0 updates, 0 removals
+remote:          - Installing composer/installers (v1.3.0): Downloading (100%)
+remote:          - Installing wp-cli/autoload-splitter (v0.1.3): Downloading (100%)
+remote:          - Installing wordpress/wordpress (4.7.5): Downloading (100%)
+remote:          - Installing automattic/batcache (dev-master 81d6fbf): Downloading (100%)
+remote:          - Installing composer/ca-bundle (1.0.7): Downloading (100%)
+remote:          - Installing composer/spdx-licenses (1.1.6): Downloading (100%)
+remote:          - Installing humanmade/s3-uploads (v1.1.0): Downloading (100%)
+remote:          - Installing justinrainbow/json-schema (5.2.1): Downloading (100%)
+remote:          - Installing nb/oxymel (v0.1.0): Downloading (100%)
+remote:          - Installing predis/predis (v1.1.1): Downloading (100%)
+remote:          - Installing psr/container (1.0.0): Downloading (100%)
+remote:          - Installing psr/log (1.0.2): Downloading (100%)
+remote:          - Installing seld/cli-prompt (1.0.3): Downloading (100%)
+remote:          - Installing seld/jsonlint (1.6.0): Downloading (100%)
+remote:          - Installing seld/phar-utils (1.0.1): Downloading (100%)
+remote:          - Installing symfony/polyfill-mbstring (v1.4.0): Downloading (100%)
+remote:          - Installing wp-cli/widget-command (v1.0.1): Downloading (100%)
+remote:          - Installing wp-cli/super-admin-command (v1.0.1): Downloading (100%)
+remote:          - Installing wp-cli/wp-cli (v1.2.1): Downloading (100%)
+remote:          - Installing wp-cli/shell-command (v1.0.1): Downloading (100%)
+remote:          - Installing wp-cli/server-command (v1.0.5): Downloading (100%)
+remote:          - Installing wp-cli/search-replace-command (v1.0.1): Downloading (100%)
+remote:          - Installing wp-cli/scaffold-command (v1.0.4): Downloading (100%)
+remote:          - Installing wp-cli/role-command (v1.0.1): Downloading (100%)
+remote:          - Installing wp-cli/rewrite-command (v1.0.1): Downloading (100%)
+remote:          - Installing wp-cli/php-cli-tools (v0.11.2): Downloading (100%)
+remote:          - Installing symfony/process (v3.3.2): Downloading (100%)
+remote:          - Installing symfony/finder (v3.3.2): Downloading (100%)
+remote:          - Installing symfony/filesystem (v3.3.2): Downloading (100%)
+remote:          - Installing symfony/debug (v3.3.2): Downloading (100%)
+remote:          - Installing symfony/console (v3.3.2): Downloading (100%)
+remote:          - Installing composer/semver (1.4.2): Downloading (100%)
+remote:          - Installing composer/composer (1.4.2): Downloading (100%)
+remote:          - Installing wp-cli/package-command (v1.0.1): Downloading (100%)
+remote:          - Installing wp-cli/mustangostang-spyc (0.6.3): Downloading (100%)
+remote:          - Installing wp-cli/media-command (v1.0.2): Downloading (100%)
+remote:          - Installing wp-cli/language-command (v1.0.2): Downloading (100%)
+remote:          - Installing wp-cli/import-command (v1.0.1): Downloading (100%)
+remote:          - Installing wp-cli/extension-command (v1.1.1): Downloading (100%)
+remote:          - Installing wp-cli/export-command (v1.0.1): Downloading (100%)
+remote:          - Installing wp-cli/eval-command (v1.0.1): Downloading (100%)
+remote:          - Installing wp-cli/entity-command (v1.0.2): Downloading (100%)
+remote:          - Installing wp-cli/db-command (v1.1.0): Downloading (100%)
+remote:          - Installing wp-cli/cron-command (v1.0.1): Downloading (100%)
+remote:          - Installing wp-cli/core-command (v1.0.1): Downloading (100%)
+remote:          - Installing wp-cli/config-command (v1.1.1): Downloading (100%)
+remote:          - Installing wp-cli/checksum-command (v1.0.1): Downloading (100%)
+remote:          - Installing wp-cli/cache-command (v1.0.1): Downloading (100%)
+remote:          - Installing symfony/yaml (v3.3.2): Downloading (100%)
+remote:          - Installing symfony/translation (v3.3.2): Downloading (100%)
+remote:          - Installing symfony/event-dispatcher (v3.3.2): Downloading (100%)
+remote:          - Installing symfony/dependency-injection (v3.3.2): Downloading (100%)
+remote:          - Installing symfony/config (v3.3.2): Downloading (100%)
+remote:          - Installing rmccue/requests (v1.7.0): Downloading (100%)
+remote:          - Installing ramsey/array_column (1.1.3): Downloading (100%)
+remote:          - Installing mustache/mustache (v2.11.1): Downloading (100%)
+remote:          - Installing wpackagist-plugin/authy-two-factor-authentication (3.0.1): Downloading (100%)
+remote:          - Installing wpackagist-plugin/jetpack (4.9): Downloading (100%)
+remote:          - Installing wpackagist-plugin/redis-cache (1.3.5): Downloading (100%)
+remote:          - Installing wpackagist-plugin/secure-db-connection (1.1.2): Downloading (100%)
+remote:          - Installing wpackagist-plugin/sendgrid-email-delivery-simplified (1.11.3): Downloading (100%)
+remote:        Generating optimized autoload files
+remote:        > ./support/app_slug_compile.sh
+remote: -----> Preparing runtime environment...
+remote: -----> Checking for additional extensions to install...
+remote:        - New Relic detected, installed ext-newrelic
+remote: -----> Discovering process types
+remote:        Procfile declares types -> web, wp
+remote:
+remote: -----> Compressing...
+remote:        Done: 37.8M
+remote: -----> Launching...
+remote:        Released v10
+remote:        https://xtiri-wordpress.herokuapp.com/ deployed to Heroku
+remote:
+remote: Verifying deploy... done.
+To heroku.com:xtiri-wordpress.git
+ * [new branch]      xtiri-wordpress -> master
+
+
+New Heroku WP app 'xtiri-wordpress' created and deployed via:
+$ git push heroku xtiri-wordpress:master
+
+
+Add-on                                        Plan       Price  State
+────────────────────────────────────────────  ─────────  ─────  ───────
+heroku-redis (redis-convex-31493)             hobby-dev  free   created
+ └─ as REDIS
+
+jawsdb-maria (jawsdb-maria-elliptical-68486)  kitefin    free   created
+ └─ as WP_DB
+
+newrelic (newrelic-encircled-66542)           wayne      free   created
+ └─ as NEW_RELIC
+
+sendgrid (sendgrid-spherical-82673)           starter    free   created
+ └─ as SENDGRID
+
+The table above shows add-ons and the attachments to the current app (xtiri-wordpress) or other apps.
+
+=== redis-convex-31493 (REDIS_URL)
+Plan:               Hobby Dev
+Status:             available
+Created:            2017-06-12 21:01 UTC
+Version:            3.2.8
+Timeout:            60
+Maxmemory:          noeviction
+Maintenance:        not required
+Maintenance window: Fridays 21:30 to Saturdays 01:30 UTC
+Persistence:        None
+HA Status:          Unavailable

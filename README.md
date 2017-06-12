@@ -1,3 +1,8 @@
+XTIRI Notes
+=========
+Used this to setup Wordpress on Heroku. Keep repository updated as needed
+
+
 Heroku WP
 =========
 
