@@ -5,10 +5,10 @@
     "license": "MIT",
     "authors": [
         {
-            "name": "Xiao Yu",
-            "email": "me@xyu.io",
-            "homepage": "http://xyu.io",
-            "role": "Developer"
+            "name": "Chase Jensen",
+            "email": "chase@xtiri.com",
+            "homepage": "xtiri.io",
+            "role": "CTO"
         }
     ],
     "require": {
@@ -38,10 +38,10 @@
             "type": "package",
             "package": {
                 "name": "WordPress/WordPress",
-                "version": "4.7.5",
+                "version": "4.8",
                 "dist": {
                     "type": "zip",
-                    "url": "https://github.com/WordPress/WordPress/archive/4.7.5.zip"
+                    "url": "https://github.com/WordPress/WordPress/archive/4.8.zip"
                 }
             }
         },
