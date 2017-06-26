@@ -7,6 +7,10 @@ bin/composer update --ignore-platform-reqs
 
 Run ./bin/init-composer.sh to install composer into bin directory to run on local machine
 
+master branch contains the composer.lock file with composer ran - updates to wordpress app (including themes, composer updates etc) happen here
+
+nginx-php7 branch contains the 'deployable version, follow instructions to deploy new wordpress app from it'
+
 Heroku WP
 =========
 
