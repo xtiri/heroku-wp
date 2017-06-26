@@ -2,6 +2,10 @@ XTIRI Notes
 =========
 Used this to setup Wordpress on Heroku. Keep repository updated as needed
 
+When Changing Composer lock file
+bin/composer update --ignore-platform-reqs
+
+Run ./bin/init-composer.sh to install composer into bin directory to run on local machine
 
 Heroku WP
 =========
